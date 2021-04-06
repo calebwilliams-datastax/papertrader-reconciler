@@ -1,0 +1,5 @@
+github.com/calebwilliams-datastax/papertrader-api v0.0.0-20210406035926-4ab2efadfb24 h1:WeEQrA51YGw7orEunT+kqA9WPKt/huoibqwmEm+Dcqg=
+github.com/calebwilliams-datastax/papertrader-api v0.0.0-20210406035926-4ab2efadfb24/go.mod h1:gXWTpjDfJfqbzDWUSpaykbuCQ3GJfJSKR9gEclndM58=
+github.com/calebwilliams-datastax/papertrader-reconciler v0.0.0-20210404031101-dea0132ffcf5 h1:BrMMgNwZ1nSLirB3/s9r55r406VAaC7EYXCxeot8lYA=
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
