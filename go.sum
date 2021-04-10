@@ -1,5 +1,9 @@
 github.com/calebwilliams-datastax/papertrader-api v0.0.0-20210406035926-4ab2efadfb24 h1:WeEQrA51YGw7orEunT+kqA9WPKt/huoibqwmEm+Dcqg=
 github.com/calebwilliams-datastax/papertrader-api v0.0.0-20210406035926-4ab2efadfb24/go.mod h1:gXWTpjDfJfqbzDWUSpaykbuCQ3GJfJSKR9gEclndM58=
+github.com/calebwilliams-datastax/papertrader-api v0.0.0-20210406060959-f34a1dca95a5 h1:Ad8hBkcZ49N1rrRBMRSCYsjJ5wXeqpw7ggwpDr2Gqk0=
+github.com/calebwilliams-datastax/papertrader-api v0.0.0-20210406060959-f34a1dca95a5/go.mod h1:gXWTpjDfJfqbzDWUSpaykbuCQ3GJfJSKR9gEclndM58=
+github.com/calebwilliams-datastax/papertrader-api v0.0.0-20210410080446-e126d7c755c5 h1:BP2lRvS+w0zhsVg+mztX6n7ig8ELlYbzbOwZNBfb2T0=
+github.com/calebwilliams-datastax/papertrader-api v0.0.0-20210410080446-e126d7c755c5/go.mod h1:gXWTpjDfJfqbzDWUSpaykbuCQ3GJfJSKR9gEclndM58=
 github.com/calebwilliams-datastax/papertrader-reconciler v0.0.0-20210404031101-dea0132ffcf5 h1:BrMMgNwZ1nSLirB3/s9r55r406VAaC7EYXCxeot8lYA=
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
 github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=

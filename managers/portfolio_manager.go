@@ -15,14 +15,14 @@ type PortfolioManager struct {
 
 func NewPortfolioManager(params map[string]string) PortfolioManager {
 	return PortfolioManager{
-		URL: fmt.Sprintf("%s/portfolios", params["API_URL"]),
+		URL: fmt.Sprintf("%s/portfolio", params["API_URL"]),
 	}
 
 }
 
 func (gm *PortfolioManager) FetchPortfoliosByGameID(gameID string) (m.APIPortfolioResponse, error) {
 	portfolios := m.APIPortfolioResponse{}
-	res, err := http.Get(fmt.Sprintf("%s/portfolio/%s", gm.URL, gameID))
+	res, err := http.Get(fmt.Sprintf("%s/%s", gm.URL, gameID))
 	if err != nil {
 		return portfolios, err
 	}

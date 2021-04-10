@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"log"
 
 	"github.com/calebwilliams-datastax/papertrader-reconciler/managers"
+	"github.com/calebwilliams-datastax/papertrader-reconciler/reconciler"
 )
 
 func main() {
@@ -14,16 +14,7 @@ func main() {
 	gm := managers.NewGameManager(params)
 	pm := managers.NewPortfolioManager(params)
 	om := managers.NewOrderManager(params)
-
-	games, err := gm.FetchOpenGames()
-	if err != nil {
-		log.Fatalf("could not fetch open games")
-		return
-	}
-	for _, game := range games.Data {
-		fmt.Printf("reconciling game: %s\n", game.ID)
-		// go reconciler.ReconcileGame(game, pm, om)
-	}
+	reconciler.Reconcile(gm, pm, om)
 
 	fmt.Printf("%s, %s, %s\n", gm.URL, pm.URL, om.URL)
 }
